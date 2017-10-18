@@ -21,7 +21,7 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu/ raring main universe" >> /etc/ap
 
 # Update the repository
 
-RUN apt-get update
+RUN apt-get update -y
 
 # Install necessary tools
 
