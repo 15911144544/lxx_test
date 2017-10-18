@@ -8,7 +8,7 @@
 
 # Set the base image to Ubuntu
 
-FROM ubuntu
+FROM ubuntu:16.04
 
 # File Author / Maintainer
 
@@ -21,7 +21,7 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu/ raring main universe" >> /etc/ap
 
 # Update the repository
 
-RUN apt-get update -y
+#RUN apt-get update -y
 
 # Install necessary tools
 
