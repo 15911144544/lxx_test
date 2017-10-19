@@ -46,7 +46,8 @@ RUN yum  install -y httpd
 
 EXPOSE 80
 
-# Set the default command to execute
+EXPOSE 8080 
+## Set the default command to execute
 
 # when creating a new container
 
